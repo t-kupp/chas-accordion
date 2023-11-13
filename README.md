@@ -8,7 +8,7 @@ The Swedish gym chain SATS has a very nice one on their customer service portal,
 
 ## How to complete this assignment
 
-Start by reading the recommended readings, they will be of great help this time.
+### Part 1
 
 You FAQ should fulfill the following basic requirements:
 
@@ -22,12 +22,37 @@ This assignment is a little different than previous assignments. For this one, w
 1. The JavaScript file is set up to add toggle an ".active" class on the ".title" divs when you click the title (use the inspector to see this in action). Use an "adjacent" CSS selector to select the panel next to an ".active" element and set it to `display: block;` to make it visible. [Read this](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) to learn about the adjacent selector.
 1. Once you have one section showing and hiding, you need to update the JavaScript to call the `toggle` function for `section2` and `section3`.
 
-As always, to complete this assignment, you need to fork this repository, add your code, and then submit a pull request on GitHub for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
+### Part 2
+
+Your FAQ should now be filled with data that you download from: https://jsonplaceholder.typicode.com/posts.
+
+1. Use `fetch` to download the data.
+1. Use `forEach` or a `for`-loop to iterate through the data and create a div with a section class for each title property and a div with a description class for each body property.
+1. Make sure that each title is showing and hiding the description div when clicked.
+
+### Setup repo in Github
+
+1. Create a Github repo.
+2. Upload your files to Github:
+
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <Address to your repo>
+git push -u origin main
+```
+
+### Hand in the assignment
+
+Click the link in canvas and input the link to your repo repo.
 
 ### :books: Reading List
 
 - [Script tags](https://www.w3schools.com/tags/att_script_src.asp)
 - [W3Schools – Javascript DOM](https://www.w3schools.com/js/js_htmldom.asp) Read to chapter "DOM HTML".
+- [W3Schools - Javascript Fetch](https://www.w3schools.com/js/js_api_fetch.asp)
 
 ---
 
@@ -36,7 +61,7 @@ As always, to complete this assignment, you need to fork this repository, add yo
 Learning how to think as a web developer is learning how to be an expert in problem solving. So whenever you get stuck start with step 1 and continue until problem solved.
 
 1. Google! In English, type in the error message if there is one, search within the language your're using (ie CSS, JavaScript etc).
-2. Ask your code buddies in your Company.
+2. Ask your code buddies.
 3. Ask your fellow students in Slack.
 4. Ask David. Please note: we are part of a sharing community - share the answer with your fellows.
 
@@ -44,7 +69,7 @@ Learning how to think as a web developer is learning how to be an expert in prob
 
 ### :boom: Success!
 
-After completing this assignment, you should know about how to manipulate the DOM with some basic Javascript. You should know how to select a certain HTML-element and make changes to that with Javascript. You should also know some basic Javascript syntax.
+After completing this assignment, you should know about how to manipulate the DOM with some basic Javascript. You should know how to select a certain HTML-element and make changes to that with Javascript. You should also be able to download data and show it on a webpage by creating html-elements in javascript.
 
 ---
 
