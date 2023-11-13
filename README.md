@@ -86,5 +86,5 @@ Done with the main task? Here's some ideas for things to continue with:
 ### :books: :runner: Stretch goal reading list
 
 - [How to make a circle in CSS](https://davidwalsh.name/css-circles)
-- [nth-child in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child)
+- [nth-child in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
 - [CSS Cursor Property](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
