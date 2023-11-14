@@ -10,7 +10,7 @@ The Swedish gym chain SATS has a very nice one on their customer service portal,
 
 ### Part 1
 
-You FAQ should fulfill the following basic requirements:
+Your FAQ should fulfill the following basic requirements:
 
 1. Click a section title to expand its description.
 2. Click the title again to collapse the description.
