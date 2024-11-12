@@ -1,4 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  color: #0e2133;
+}
+
 html {
-  background: #f2f1f4;
-  color: #19171c;
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  padding: 50px;
+  max-width: max-content;
+}
+
+.section-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.section-container:nth-child(4n) {
+  background-color: #f4f4f4;
+}
+
+.section-container:hover {
+  background-color: #e9f1f7;
+}
+
+.icon {
+  margin-right: 20px;
+  transform: rotate(0deg);
+  transition: transform 0.15s linear;
+}
+
+.description {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.extender-container {
+  visibility: hidden;
+  max-height: 0px;
+  transition: all 0.3s linear;
+  overflow: hidden;
+}
+
+.title,
+.description {
+  pointer-events: none;
+}
+
+.icon-active {
+  transform: rotate(180deg);
+}
+
+.active + .extender-container {
+  visibility: visible;
+  max-height: 200px;
 }
